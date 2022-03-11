@@ -13,7 +13,7 @@
 .home_main{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(106,180,62,0.8), rgba(0,0,0,0.5)), url(/img/jeremy-brady-vK26p2SFX3E-unsplash.jpg);
+    background-image: linear-gradient(rgba(106,180,62,0.8), rgba(0,0,0,0.5)), url(jeremy-brady-vK26p2SFX3E-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
