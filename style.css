@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    /* background-color: aliceblue; */
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(106,180,62,0.8), rgba(0,0,0,0.5)), url(/img/jeremy-brady-vK26p2SFX3E-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+  
+.home_content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;  
+}
+.home_countdown .count-down{
+    /* border: 2px solid red; */
+    display: flex;
+  width: 100%;
+  height: 100px;
+  flex-wrap: wrap;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+.home_countdown .count-down .timer{
+    height: 100%;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+  .count-down .timer:hover{
+    background-color: #00C897;
+    cursor: pointer;
+  }
+  .count-down .timer .numb{
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+  }
+  .count-down .timer .text{
+    font-size: 15px;
+    color: #fff;
+  }
+  .count-down .clone{
+    font-size: 45px;
+    color: #fff;    
+  }
+
+  @media (max-width: 630px) {
+    .home_countdown .count-down{
+      height: 80px;
+    }
+    .home_countdown .count-down .timer{
+      width: 80px;
+    }
+    .count-down .timer .numb{
+      font-size: 20px;
+    }
+    .count-down .timer .text{
+      font-size: 13px;
+    }
+    .count-down .clone{
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 542px){
+    .home_countdown{
+      padding: 0 20px;
+    }
+    .home_countdown .count-down .timer{
+      border: none;
+    }
+    .count-down .timer .numb{
+      font-size: 28px;
+    }
+    .count-down .timer .text{
+      font-size: 15px!important;
+    }
+    .count-down .clone{
+      display: none;
+    }
+}
+@media (max-width: 340px){
+    .home_countdown .count-down{
+        width: 100%;
+        height: auto;
+        padding: auto;
+        /* border: 2px solid red; */
+    }
+    .home_countdown .count-down .timer{
+      width: 30px;
+    }
+  }
+/* .bg-overlay-primary:before {
+    background: rgba(106,180,62,0.8);
+} */
